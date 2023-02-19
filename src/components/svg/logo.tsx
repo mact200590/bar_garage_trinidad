@@ -7,7 +7,7 @@ interface Props{
     
 }
 
-const Logo=({height=44,width=46,fill='#EF6D58',...props}:Props)=> {
+const LogoGarage=({height=44,width=46,fill='#EF6D58',...props}:Props)=> {
   return (
     <svg
       width={width}
@@ -26,4 +26,4 @@ const Logo=({height=44,width=46,fill='#EF6D58',...props}:Props)=> {
   )
 }
 
-export default Logo
+export default LogoGarage
