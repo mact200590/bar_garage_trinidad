@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import Logo from '../svg/Logo';
 import Menu from '../svg/menu';
+import Logo from '@/components/svg/Logo'
 
 
  const Header = () => {
@@ -9,7 +9,7 @@ import Menu from '../svg/menu';
     <Container>
       <ContainerLogoText style={{marginLeft:'23px'}}>
       <ContainerLogo>
-        <Logo/>
+        <Logo />
       </ContainerLogo>
         <TextLogo>Bar Garage</TextLogo>
         </ContainerLogoText>
